@@ -12,9 +12,9 @@
             {
                 opcode: 'getmessage',
                 blockType: Scratch.BlockType.REPORTER,
-                text: 'get messages count from ',
+                text: 'get messages count of [user]',
                 arguments: {
-                  getmessage: {
+                  'user': {
                     type: Scratch.ArgumentType.STRING,
                     defaultValue: 'griffpatch'
                   }
