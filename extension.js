@@ -23,7 +23,7 @@
             ]
         };
       }
-    // Block Code Here
+      const response = await Scratch.fetch('url');
     }
     Scratch.extensions.register(new messagesread());
   })(Scratch);
